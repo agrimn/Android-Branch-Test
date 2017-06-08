@@ -22,7 +22,7 @@
 
             <!--Branch Links open up into the main activity-->
             <intent-filter>
-                <data android:scheme="agrim"/>
+                <data android:scheme="agrim" android:host="open"/>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
